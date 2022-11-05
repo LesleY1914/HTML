@@ -1,9 +1,90 @@
 <!DOCTYPE html>
 <html>
+  <head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+            background-color: #579bd3;
+            
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#4382b6;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Veterinarias</a></li>
+						<li><a href="">Paseadores</a></li>
+						<li><a href="">Instructores</a></li>
+					
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de Mascotas</a>
+					<ul>
+				
+					</ul>
+				</li>
+				<li><a href="">Contactanos</a></li>
+			</ul>
+		</div>
+	</body>
+    <center>
+<head>
     <center>
 <head>
     
-<title>PEDS WORLD</title>
+<title>Razas de perros</title>
 
 
 </head>
@@ -11,10 +92,11 @@
 
 <br><br><br><br><br><br>
 <body>
-    <h1>Mascotas</h1>
+    <h1 style="color:#579bd3">Mascotas</h1>
 
 
-    
+    <img src="https://www.elespectador.com/resizer/7SbSZhrstLk1qkORthDayg7J-MA=/920x613/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/5IXPWGDWYZFQRB7D6XLVA7SBNE.jpg" alt="Flowers in Chania" width=300" height="220">
+
 
 </body>
 
@@ -22,36 +104,63 @@
 <table style="width: 70%">
     <style>
         table, th, td {
-            border: 1px solid white;
+            border: 1px solid rgb(0, 0, 0);
             border-collapse: collapse;
           }
-          th, td {
-            background-color: #96b8d4;
+          th {
+            background-color: #579bd3;
           }
     </style>
-    <tr>
-      <th style="width:50%">Raza</th>
-      <th>Nombre</th>
-      <th>Edad</th>
-      <th>Sexo</th>
+    <tr style="height:100px"  >
+      
+
+      <th style="color:white">Raza</th>
+      
+      <th style="color:white">Nombre</th>
+      <th style="color:white">Edad(años)</th>
+      <th style="color:white">Sexo</th>
     </tr>
-    <tr>
+    <tr style="height:50px">
       <td>Pitbul</td>
       <td>Tobi</td>
       <td>5</td>
       <td>M</td>
     </tr>
-    <tr>
+    <tr style="height:50px">
       <td>Pug</td>
       <td>Galleta</td>
       <td>2</td>
       <td>F</td>
     </tr>
-    <tr>
+    <tr style="height:50px">
         <td>Chihuahua</td>
         <td>Estrella</td>
+        <td>4</td>
+        <td>F</td>
+    </tr>
+    <tr style="height:50px">
+        <td>Gran Danés</td>
+        <td>Roki</td>
         <td>3</td>
-      <td>F</td>
+        <td>M</td>
+    </tr>
+    <tr style="height:50px">
+    <td>Pastor Aleman</td>
+    <td>Luna</td>
+    <td>1</td>
+    <td>F</td>
+</tr>
+    <tr style="height:50px">
+        <td>Bulldog</td>
+        <td>Rosa</td>
+        <td>4</td>
+        <td>F</td>
+    </tr>
+    <tr style="height:50px">
+        <td>Golden retriver</td>
+        <td>Balto</td>
+        <td>8</td>
+        <td>M</td>
     </tr>
   </table>
 </center>
